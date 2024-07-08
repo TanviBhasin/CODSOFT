@@ -3,18 +3,15 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 import logo from "../../assets/sLogo.png";
-// import Button from "react-bootstrap/Button";
-import { Link } from "react-router-dom"; // Keep this as Link for navigation
-// import { CgGitFork } from "react-icons/cg";
+import { Link } from "react-router-dom"; 
 import {
-  // AiFillStar,
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
   AiOutlineContacts
 } from "react-icons/ai";
 import { GiSkills } from "react-icons/gi";
 import { CgFileDocument } from "react-icons/cg";
-import { Link as ScrollLink } from "react-scroll"; // Rename this import to avoid conflict
+import { Link as ScrollLink } from "react-scroll"; 
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
